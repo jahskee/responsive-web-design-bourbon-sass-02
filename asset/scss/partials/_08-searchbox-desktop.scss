@@ -1,0 +1,37 @@
+.searchbox-desktop {
+    display: block;
+    float: right;
+    position: relative;
+    top: -33px;
+    left: 0px;
+    margin-right:20px;
+
+    input[type='text']{
+       width: 8em;
+       height: 20px;
+       position: relative;
+       top: 2px;
+    }
+
+   .search-btn {
+            font-size: 0.6em;
+            position: relative;
+            left: -1px;
+            top: 1px;
+            height: 20px;
+            border: 0;
+            background: $theme-color2;
+            color: $white;
+   }
+
+    .search-btn:hover {
+        background-color: lightblue;
+    }
+
+    input {
+        /*border-radius: 10px;*/
+        font-size: .8em;
+        height: 1.1em;
+    }
+
+}

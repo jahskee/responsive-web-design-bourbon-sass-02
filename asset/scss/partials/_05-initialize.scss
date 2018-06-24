@@ -1,0 +1,47 @@
+
+html {
+    @if mixin-exist(box-sizing) {
+        @include box-sizing(border-box);
+    } @else {
+        @include prefixer(box-sizing, $box, webkit moz spec);
+    }
+
+    margin-top: 0;
+    font-size: $desktop-html-base-font-size; // 16px
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+
+    font-size: $desktop-body-base-font-size; // 16px
+    line-height: 1.4;
+    font-family: $body-font-family;
+    background: $theme-color13;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h1 { font-size: 1.6em;}
+
+
+footer {
+    font-family: $footer-font-family;
+    font-size: $footer-font-size;
+
+    .hover-tile-outer {
+        background-image: url('/asset/img/extras/jahskee.jpg');
+        margin: 0 auto;
+        width: 90px;
+        height: 140px;
+        border: 5px solid white;
+        @include box-shadow();
+    }
+}

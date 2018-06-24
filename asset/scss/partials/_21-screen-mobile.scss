@@ -1,0 +1,79 @@
+/* query for mobile phone devices */
+@media only screen
+and (max-width: 479px) {
+    html {
+      font-size: $mobile-html-base-font-size;
+    }
+    body {
+      font-size: $mobile-body-base-font-size;
+    }
+
+   .hero-title {
+       font-size: 1.2em;
+       top: 120px;
+       z-index: 100;
+
+       h3 {
+           left: -40px;
+       }
+       h1 {
+           left: 30px;
+       }
+   }
+
+    .searchbox-desktop {
+        display: none;
+    }
+  .searchbox-mobile {
+    display: inline-block;
+  }
+
+
+  .row {
+        margin-top: 0;
+        margin-bottom: 0px;
+        .col-2, .col-4 {
+            margin-right: 0;
+            width: 100%;
+        }
+
+        & [class^="col-"], & [class*=" col-"] {
+            margin-top: 0px;
+            margin-bottom: 5px;
+
+            article {
+                p img {
+                    padding-right: 0;
+                    width: 100%;
+                }
+            }
+        }
+
+        &:first-child {
+            margin-top: 10px;
+        }
+    }
+
+    picture img {
+        width: 100%;
+    }
+
+    header {
+        z-index: 105;
+
+        .logo-title {
+            font-size: 1em;
+        }
+    }
+
+    .wrapper {
+        margin-top: 65px;
+    //    width: 500px;
+
+    }
+
+  .footer {
+    padding-top: 0;
+  }
+
+}

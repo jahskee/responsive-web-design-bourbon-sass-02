@@ -1,0 +1,56 @@
+// function that processes the neutral color
+@function get-mixed-saturated-darkest-color($color-neutral){
+  $color: mix-neutral($color-neutral);
+  $color: darken($color, 30%);
+  $color: desaturate($color, 20%);
+  $color: tint($color, 8%);
+  $color: shade($color, 8%);
+  @return $color;
+}
+
+// === Pick a color we want to pop out
+//$pop-color:hsl(65,100%,50%);
+$complement-color: complement($pop-color);
+$pop-color-neutral: harmonious-mix($complement-color, $pop-color);
+$complement-color-neutral: harmonious-mix($pop-color, $complement-color);
+
+
+// === Generate Action Colors
+$object-color1: get-mixed-saturated-darkest-color($pop-color-neutral);
+$object-color2: lighten($object-color1, 5%);
+$object-color3: lighten($object-color1, 10%);
+$object-color4: lighten($object-color1, 15%);
+$object-color5: lighten($object-color1, 20%);
+$object-color6: lighten($object-color1, 25%);
+$object-color7: lighten($object-color1, 30%);
+$object-color8: lighten($object-color1, 35%);
+$object-color9: lighten($object-color1, 40%);
+$object-color10: lighten($object-color1, 45%);
+$object-color11: lighten($object-color1, 50%);
+$object-color12: lighten($object-color1, 55%);
+$object-color13: lighten($object-color1, 60%);
+$object-color14: lighten($object-color1, 65%);
+$object-color15: lighten($object-color1, 70%);
+$object-color16: lighten($object-color1, 75%);
+
+// === Generate Complement or Theme Colors
+$theme-color1: get-mixed-saturated-darkest-color($complement-color-neutral);
+$theme-color2: lighten($theme-color1, 5%);
+$theme-color3: lighten($theme-color1, 10%);
+$theme-color4: lighten($theme-color1, 15%);
+$theme-color5: lighten($theme-color1, 20%);
+$theme-color6: lighten($theme-color1, 25%);
+$theme-color7: lighten($theme-color1, 30%);
+$theme-color8: lighten($theme-color1, 35%);
+$theme-color9: lighten($theme-color1, 40%);
+$theme-color10: lighten($theme-color1, 45%);
+$theme-color11: lighten($theme-color1, 50%);
+$theme-color12: lighten($theme-color1, 55%);
+$theme-color13: lighten($theme-color1, 60%);
+$theme-color14: lighten($theme-color1, 65%);
+$theme-color15: lighten($theme-color1, 70%);
+$theme-color16: lighten($theme-color1, 75%);
+
+// === Set white not too white & black not too black
+$white: desaturate(#f5f5f5, 30%);
+$black: desaturate(#0d0d0d, 50%);

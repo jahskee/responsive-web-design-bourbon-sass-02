@@ -1,0 +1,31 @@
+.box-container {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.box {
+  display: inline-block;
+  width: 10%;
+  height: 20px;
+  margin: 0 auto;
+}
+
+$box-color: lighten($theme-color1, 10%);
+$darken: 0;
+
+@for $i from 0 through 5 {
+  $darken: $darken + 3;
+  #box-#{$i} {
+
+    background: darken($box-color, $darken);
+  }
+}
+
+$dark-color: darken($box-color, $darken);
+$lighten: 0;
+@for $i from 5 through 10 {
+  $lighten: $lighten + 3;
+  #box-#{$i} {
+    background: lighten($dark-color, $lighten);
+  }
+}

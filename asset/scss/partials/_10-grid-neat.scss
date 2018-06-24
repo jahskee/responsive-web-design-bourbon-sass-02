@@ -1,0 +1,82 @@
+// Change the grid settings
+$grid-columns: 8;
+//$max-width: 1200px;
+
+$mobile-size:em(320);
+$tablet-size:720px;
+
+// Bourbon Neat Breakpoints
+$mobile: new-breakpoint(min-width $mobile-size 4);
+$tablet: new-breakpoint(min-width $tablet-size 8);
+
+.wrapper {
+  position: relative;
+  //top: $wrapper-move-up;
+  @include outer-container($wrapper-width);
+  margin-top: 80px;
+  font-size: 0.8em;
+  z-index: 5;
+
+  background: $white;
+  border-bottom: 0;
+}
+
+.inner-border {
+  display: block;
+  float: left;
+  position: relative;
+  border: 10px solid $theme-color14;
+  width: 100%;
+}
+
+.row {
+  @include span-columns(8);
+  margin: 0;
+  @include set-display-flex();
+  @include set-flex-wrap();
+  margin-bottom: 5px;
+  @include clearfix();
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  [class^="col-"], [class*=" col-"] {
+    color: $black;
+    margin-top: 10px;
+    margin-right: 1%;
+    background: white;
+    border: 1px solid $theme-color12;
+  }
+
+  .col-8 {
+    @include span-columns(8 of 8);
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .col-4 {
+    @include span-columns(4 of 8);
+    width: 49.5%;
+    margin-right: 1%;
+
+
+
+
+  }
+  .col-2 {
+    @include span-columns(2 of 8);
+    width: 24.25%;
+    margin-right: 1%;
+
+    article img {
+      float: left;
+      width: 100%;
+      padding-right: 0;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+

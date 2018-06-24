@@ -1,0 +1,36 @@
+@mixin box-sizing($box) {
+  @include prefixer(box-sizing, $box, webkit moz spec);
+}
+
+@mixin set-display-flex() {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin set-flex-wrap() {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+// Uniform box shadow
+@mixin box-shadow($shadow_values: 9px 6px 44px -4px rgba(#000, 0.75)) {
+  -webkit-box-shadow: $shadow_values;
+  -moz-box-shadow: $shadow_values;
+  box-shadow: $shadow_values;
+}
+
+@mixin text-rotate($degrees) {
+  -ms-transform:rotate($degrees); /* IE 9 */
+  -moz-transform:rotate($degrees); /* Firefox */
+  -webkit-transform:rotate($degrees); /* Safari and Chrome */
+  -o-transform:rotate($degrees); /* Opera */
+}

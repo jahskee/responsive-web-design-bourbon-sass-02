@@ -1,0 +1,49 @@
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.img-full-width,
+.img-half-width {
+    padding-right: 7px;
+    padding-bottom: 4px;
+}
+
+.header #cssmenu ul,
+.header #cssmenu ul li,
+.header #cssmenu ul li a{
+    z-index: 1011;
+}
+
+.header {
+   /* background: #233352;*/
+    z-index: 100;
+}
+
+.searchbox-mobile {
+    display: none;
+}
+.social-media-mobile {
+    display: none;
+}
+
+.plane {
+    width: 100%;
+}
+
+#cssmenu {
+    border-bottom: 10px solid $theme-color12;
+}
+
+.hover-tile-outer {
+    background-image: url('/asset/img/extras/jahskee.jpg');
+    margin: 0 auto;
+    width: 90px;
+    height: 140px;
+    border: 5px solid $white;
+    @include box-shadow();
+}
+

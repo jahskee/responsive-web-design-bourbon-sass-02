@@ -1,0 +1,25 @@
+article {
+  background: $white;
+  background: white;
+  h3 {
+    //color: $white;
+    background: $object-color9;
+    padding-left: 10px;
+    font-size: 1.3em;
+    font-family: 'Rancho';
+    border-bottom: 1px solid $theme-color10;
+  }
+  p {
+    @include padding(0 10px 0 10px);
+
+  }
+
+
+  p img {
+      float: left;
+      width: 66%;
+
+      padding-right: 10px;
+      padding-bottom: 10px;
+  }
+}

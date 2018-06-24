@@ -1,0 +1,2265 @@
+/*!normalize.css v2.1.3|MIT License|git.io/normalize*/
+@import "https://fonts.googleapis.com/css?family=Kaushan+Script|Raleway|Great+Vibes";
+@import "https://fonts.googleapis.com/css?family=Rancho|Source+Sans+Pro";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+/* line 10, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 26, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* line 34, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 41, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 51, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 57, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+body {
+  margin: 0;
+}
+
+/* line 64, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+a {
+  background: transparent;
+}
+
+/* line 69, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 74, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 83, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 89, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 94, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 100, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+dfn {
+  font-style: italic;
+}
+
+/* line 105, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 111, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+mark {
+  background: #FF0;
+  color: #000;
+}
+
+/* line 117, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 126, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+pre {
+  white-space: pre-wrap;
+}
+
+/* line 131, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 136, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+small {
+  font-size: 80%;
+}
+
+/* line 141, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 148, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+sup {
+  top: -0.5em;
+}
+
+/* line 151, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 158, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+img {
+  border: 0;
+}
+
+/* line 163, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 170, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+figure {
+  margin: 0;
+}
+
+/* line 177, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+fieldset {
+  border: 1px solid #C0C0C0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 185, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 193, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* line 204, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 213, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 223, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 232, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 239, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 248, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+/* line 255, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 261, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 269, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 277, /home/releasemgr/devtools/scout-app/scout-files/mixins/_normalize.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/libsass/neat/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/libsass/neat/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* line 1, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-slider > ol, .ism-slider > ol > li, .ism-slider > ol > li > img {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-slider {
+  overflow: hidden;
+  position: relative;
+  padding: 0 !important;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-animation: ism-fadein 3s;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+@-webkit-keyframes ism-fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes ism-loading {
+  50% {
+    left: 120px;
+  }
+}
+
+/* line 27, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-slider .ism-slides {
+  list-style: none;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  padding: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+/* line 38, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-slider li.ism-slide {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #d5d5d5;
+  text-align: center;
+}
+
+/* line 51, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-slider .ism-img-frame {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 58, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-slider a.ism-image-link {
+  position: absolute;
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 69, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-slider .ism-img {
+  display: block;
+  border: none;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* line 76, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-button, .ism-pause-button {
+  position: absolute;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-align: center;
+  z-index: 6;
+  cursor: pointer;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 90, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-pause-button {
+  display: none;
+  left: 50%;
+}
+
+/* line 95, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-slider:hover .ism-pause-button {
+  display: block;
+}
+
+/* line 99, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-caption {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 1em;
+  text-shadow: none;
+  line-height: 1.2em;
+  padding: 0.25em 0.5em;
+  width: auto;
+  height: auto;
+  text-align: center;
+  visibility: hidden;
+}
+
+/* line 111, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+a.ism-image-link .ism-caption, a.ism-caption {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+/* line 116, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+a.ism-caption:hover {
+  text-decoration: underline;
+}
+
+/* line 120, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-caption-0 {
+  z-index: 3;
+}
+
+/* line 124, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-caption-1 {
+  z-index: 4;
+}
+
+/* line 128, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-caption-2 {
+  z-index: 5;
+}
+
+/* line 132, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-radios {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #fff;
+  font-size: 1px;
+}
+
+/* line 140, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-slider .ism-radios {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 6;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0 7px;
+  height: 0;
+  overflow: visible;
+}
+
+/* line 154, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-slider .ism-radios.ism-radios-as-thumbnails {
+  bottom: 5px;
+}
+
+/* line 158, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-radios li {
+  position: relative;
+  display: inline-block;
+  margin: 0 3px;
+  padding: 0;
+}
+
+/* line 165, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-radios input.ism-radio {
+  display: none;
+}
+
+/* line 169, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-radios label {
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 177, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-radios-as-thumbnails label {
+  -webkit-background-size: 120% auto;
+  -moz-background-size: 120% auto;
+  -o-background-size: 120% auto;
+  background-size: 120% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  opacity: 0.8;
+}
+
+/* line 185, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-radios-as-thumbnails label:hover {
+  border: 2px solid #fff;
+  opacity: 1;
+}
+
+/* line 190, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-radios-as-thumbnails li.active label {
+  border: 2px solid white;
+  opacity: 1;
+}
+
+/* line 195, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+p.ism-badge {
+  margin: 0 auto;
+  text-align: right;
+  font-size: 10px;
+  padding-top: 1px;
+  color: #ccc;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+/* line 205, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+p.ism-badge a.ism-link {
+  color: inherit;
+  text-decoration: none;
+  margin-right: 0.25em;
+}
+
+/* line 211, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+p.ism-badge a.ism-link:hover {
+  color: #aaa;
+  text-decoration: underline;
+}
+
+/* line 216, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-zoom-in {
+  -webkit-animation: zoomin 0.81s linear 1;
+  animation: zoomin 0.81s linear 1;
+}
+
+@-webkit-keyframes zoomin {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+  }
+}
+
+@keyframes zoomin {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slidein {
+  0% {
+    -webkit-transform: translate(-1200px, 0);
+    transform: translate(-1200px, 0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes slidein {
+  0% {
+    -webkit-transform: translate(-1200px, 0);
+    transform: translate(-1200px, 0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+@-webkit-keyframes popin {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+@keyframes popin {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+/* line 255, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-zoom-pan {
+  -webkit-animation: zoompan 20.0s linear 1;
+  animation: zoompan 20.0s linear 1;
+}
+
+@-webkit-keyframes zoompan {
+  0% {
+    -webkit-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    -webkit-transform: translate(-5%, -5%) scale(1.3);
+    transform: translate(-5%, -5%) scale(1.3);
+  }
+  100% {
+    -webkit-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes zoompan {
+  0% {
+    -webkit-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    -webkit-transform: translate(-5%, -5%) scale(1.3);
+    transform: translate(-5%, -5%) scale(1.3);
+  }
+  100% {
+    -webkit-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+/* line 270, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+.ism-zoom-rotate {
+  -webkit-animation: zoomrotate 20.0s linear 1;
+  animation: zoomrotate 20.0s linear 1;
+}
+
+@-webkit-keyframes zoomrotate {
+  0% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+  }
+  50% {
+    -webkit-transform: rotate(-5deg) scale(1.3);
+    transform: rotate(-5deg) scale(1.3);
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+  }
+}
+
+@keyframes zoomrotate {
+  0% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+  }
+  50% {
+    -webkit-transform: rotate(-5deg) scale(1.3);
+    transform: rotate(-5deg) scale(1.3);
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+  }
+}
+
+/* SLIDER */
+/* line 286, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider {
+  width: 100%;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 291, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider-ism-badge {
+  width: 100%;
+}
+
+/* line 295, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider:before {
+  content: '';
+  display: block;
+  padding-top: 45%;
+}
+
+/* line 299, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-frame {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* line 303, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-button {
+  display: block;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  background-size: 16px 16px;
+  top: 50%;
+  margin-top: -30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: block;
+  visibility: visible;
+}
+
+/* line 311, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-button-prev {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAs6AAALOgFkf1cNAAAC+ElEQVR42uWbT4hVZRiHn/d0JQkTURQkHE1Sa0gREbKghbpIdCMuIiKwCfIPkwvBjaQiiuVCQQgCQUF0FyWCga2qhZvrQqiFCDWQMumo4R8YREh8WvilJ7jMjDn33jPn++0v5z7P/X3vOd93OVCTqLPUzeQYtV8dVC/mBj5Tbfo0zVzAp6jb1Qf+N80c4Jerv9k6zTqDz1CPOHKadYXfpA44ep5ZQKPi4NOA08DKdl2jqCj4ZHUb8Gc74SvZAHUx8C2wsBPXKyoEPkP9Avi1U/CVaYD6MbCzk+CVEKC+BHwDrOvWdyi6BN5QtwJD3YTvSgPURcAZ4PUqLL+ig+DT1V3A5arAd6wB6gfAbqC3arfdRpvBXwROAu9X9WmzaCP8p8D1KsO3pQHqfOAs8AYQVd9oFeMIPk3dAQyktV55+HFrgLoe2Acsnmhb7cZzgjeAY8DGiXrWUDwHfF/ark5Y+P/VALUnDbk3q3qe0JYGqFPVfuAKsKQO8GNugPoecBBYSs3SGAX8BeArYCs1TTEC/EfAH3WGb9kAdTbwfap7Qc1TlMBfVj9JQ25ZDvBPBKhrgJ+B48AkMsq/v/JNYCYgmaUAiIiLwDzgc+Bejg0gIh5FxJfAAuDH7ASURNyKiNVAH3A1OwElESeAFekJMD8BScL1iNiZRAzVcUiO6V4fEU1gDrAXuJ+dgCThYUTsA+YD57MTUBJxIyLeBfqBwewElER8DbwNHMlSQJIwGBHbgVXAX9kJKIn4KQ3J/cDf2QlIEh5ExB6gB7iQnYCSiKGIeAvYAVzLTkBJxGHgHeBolgKShCsRsQVYC9zJTkBJxLk0Gw5mKSBJGE77ileAX7ITUBJxLSKWArvSBivfqK+qpxy/NCeqiA3q3W4IqMTRd0Sc5vGZ5GFyjzpXvZRVA1o8O/QCB4BbubfhNfW72g/BMYj4UL2XrYAkYVa2L021WBYDtR2CYxiSv/P436tDwO3ch+Qi9YfsXp1tIaJPHVYv5NyGOepnz/q5fwCJ0AEINjk5wQAAAABJRU5ErkJggg==);
+  left: 10px;
+}
+
+/* line 316, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-button-next {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAs6AAALOgFkf1cNAAACy0lEQVR42uWbS2hUVxyHv78PLKKiFgXBiIgvBEVKwZWL4kJrF7oQCSpoAlYkuhCyq4hQ2goqSBFBsNBCoXShbgp15XsTQSGKqKj1QdTYFCVQiuDic5FcGkQhj0nm3vl/6+Ge+X3zO2fumTkXhoi6S51NVtQbapfallVAh//Toc7KLED1jbpPnZJVQMF99fPMAgqOqZ9mFqD6UP06s4CC8+r0MucZN8rX/wJ4pu5VP8nYgIHcU5dna8BAFgM31e8rvUiOoAHvt2FHZgEFf6iTs0yBD/EV0K3uVidkFAAwFTgB3FKXZBRQsBS4q+5XZ2YUUPAtcEVtzioAYBnwm/q7OimjgILNwAt1Z1YBADOAk+ptdUFGAQDRPy0equ213GBVRcBADgOX1Y1ZBQAsB86qP4/0BqqqAgq292+3W7IKAJgNnFI71XkZBRQ5VgBP1DZ1WjYBAzkOXFLXZhUAsBI4p55Qx2cUULAbeKxuyyoAYC7wi3pdnZNRQJHzs/5FslWdmk1AwUTgJ+Ciui6jAACBWcDfGQX0At8A8yPiBsCEROHPA80R0ZNtEXwKtETEmvfDZ2jAIeDHiHjxsRc0ogCBl8DGiOjIdiv8H3AQaBpM+EZrwFVgU0S8zLYd7gLaImL1UMM3QgOOAUcjomu4F6iqgH+AzRFxoRabhCrxlr6/zppqEb5qDbgGbIiI7lpvE8vOc6A9IlbVOnwVGnAS+CEinozWAGUV8BrYGhF/jvZAZZwCh4B5YxG+bA3oBNZHxPOxHLQMDegG9kfEyrEOX4YG/AociIhH9XoD9RLQC7RGxJl6168eU+Aofb/JnSnB9BvTBtwBvhzN7/SyNqAH+C4ilpUt/LAY4lnh0+pCGolBCuhVt9CIDPKhqco8WVrLRfAvYG1EPKjSB1qLRfAVcARYVLXwtZgC5+pxxL3eAq6p/47kaFrVBexRmxolzzsZ+iOF4pXTWQAAAABJRU5ErkJggg==);
+  right: 10px;
+}
+
+/* line 321, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-pause-button {
+  width: 60px;
+  height: 60px;
+  background-size: 16px 16px;
+  top: 50%;
+  margin-top: -30px;
+  border-radius: 30px;
+  margin-left: -30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAc0lEQVR42u3SsQkAIAxFQeP+O38XsBKxMPfKgCQcjqHe1W6YJFeXVNXJuxd3zO4/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID0RwuEoAh40yYcSQAAAABJRU5ErkJggg==);
+}
+
+/* line 326, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-pause-button.ism-play {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAs6AAALOgFkf1cNAAACy0lEQVR42uWbS2hUVxyHv78PLKKiFgXBiIgvBEVKwZWL4kJrF7oQCSpoAlYkuhCyq4hQ2goqSBFBsNBCoXShbgp15XsTQSGKqKj1QdTYFCVQiuDic5FcGkQhj0nm3vl/6+Ge+X3zO2fumTkXhoi6S51NVtQbapfallVAh//Toc7KLED1jbpPnZJVQMF99fPMAgqOqZ9mFqD6UP06s4CC8+r0MucZN8rX/wJ4pu5VP8nYgIHcU5dna8BAFgM31e8rvUiOoAHvt2FHZgEFf6iTs0yBD/EV0K3uVidkFAAwFTgB3FKXZBRQsBS4q+5XZ2YUUPAtcEVtzioAYBnwm/q7OimjgILNwAt1Z1YBADOAk+ptdUFGAQDRPy0equ213GBVRcBADgOX1Y1ZBQAsB86qP4/0BqqqAgq292+3W7IKAJgNnFI71XkZBRQ5VgBP1DZ1WjYBAzkOXFLXZhUAsBI4p55Qx2cUULAbeKxuyyoAYC7wi3pdnZNRQJHzs/5FslWdmk1AwUTgJ+Ciui6jAACBWcDfGQX0At8A8yPiBsCEROHPA80R0ZNtEXwKtETEmvfDZ2jAIeDHiHjxsRc0ogCBl8DGiOjIdiv8H3AQaBpM+EZrwFVgU0S8zLYd7gLaImL1UMM3QgOOAUcjomu4F6iqgH+AzRFxoRabhCrxlr6/zppqEb5qDbgGbIiI7lpvE8vOc6A9IlbVOnwVGnAS+CEinozWAGUV8BrYGhF/jvZAZZwCh4B5YxG+bA3oBNZHxPOxHLQMDegG9kfEyrEOX4YG/AociIhH9XoD9RLQC7RGxJl6168eU+Aofb/JnSnB9BvTBtwBvhzN7/SyNqAH+C4ilpUt/LAY4lnh0+pCGolBCuhVt9CIDPKhqco8WVrLRfAvYG1EPKjSB1qLRfAVcARYVLXwtZgC5+pxxL3eAq6p/47kaFrVBexRmxolzzsZ+iOF4pXTWQAAAABJRU5ErkJggg==);
+}
+
+/* line 330, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 334, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-pause-button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 338, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-radios {
+  display: block;
+  height: 20px;
+  text-align: center;
+}
+
+/* line 344, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-radios label {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 350, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-radios li.active label {
+  background-color: white;
+}
+
+/* line 354, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-radios label:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* SLIDES */
+/* line 361, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-0 .ism-img-frame {
+  width: 100%;
+}
+
+/* line 365, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-0 .ism-img {
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 370, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-1 .ism-img-frame {
+  width: 100%;
+}
+
+/* line 374, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-1 .ism-img {
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 379, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-2 .ism-img-frame {
+  width: 100%;
+}
+
+/* line 383, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-2 .ism-img {
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 388, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-3 .ism-img-frame {
+  width: 100%;
+}
+
+/* line 392, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-3 .ism-img {
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 397, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-4 .ism-img-frame {
+  width: 100%;
+}
+
+/* line 401, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-4 .ism-img {
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 406, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-5 .ism-img-frame {
+  width: 100%;
+}
+
+/* line 410, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-5 .ism-img {
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* CAPTIONS */
+/* line 418, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-0 .ism-caption-0.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 422, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-0 .ism-caption-1.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 426, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-0 .ism-caption-2.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 430, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-1 .ism-caption-0.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 434, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-1 .ism-caption-1.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 438, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-1 .ism-caption-2.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 442, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-2 .ism-caption-0.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 446, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-2 .ism-caption-1.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 450, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-2 .ism-caption-2.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 454, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-3 .ism-caption-0.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 458, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-3 .ism-caption-1.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 462, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-3 .ism-caption-2.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 466, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-4 .ism-caption-0.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 470, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-4 .ism-caption-1.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 474, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-4 .ism-caption-2.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 478, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-5 .ism-caption-0.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 482, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-5 .ism-caption-1.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 486, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-5 .ism-caption-2.ism-caption-anim {
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+/* line 490, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-0 .ism-caption-0 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 500, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-0 .ism-caption-1 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 510, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-0 .ism-caption-2 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 520, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-1 .ism-caption-0 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 530, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-1 .ism-caption-1 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 540, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-1 .ism-caption-2 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 550, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-2 .ism-caption-0 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 560, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-2 .ism-caption-1 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 570, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-2 .ism-caption-2 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 580, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-3 .ism-caption-0 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 590, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-3 .ism-caption-1 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 600, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-3 .ism-caption-2 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 610, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-4 .ism-caption-0 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 620, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-4 .ism-caption-1 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 630, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-4 .ism-caption-2 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 640, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-5 .ism-caption-0 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 650, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-5 .ism-caption-1 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 660, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/lib/ism/css/my-slider.scss */
+#my-slider .ism-slide-5 .ism-caption-2 {
+  font-size: 1.25em;
+  font-family: sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 2, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_05-initialize.scss */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 0;
+  font-size: 16px;
+}
+
+/* line 13, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_05-initialize.scss */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* line 19, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_05-initialize.scss */
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: "Raleway", Georgia, Arial, Geneva, sans-serif;
+  background: #ebebee;
+}
+
+/* line 28, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_05-initialize.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* line 32, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_05-initialize.scss */
+h1 {
+  font-size: 1.6em;
+}
+
+/* line 35, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_05-initialize.scss */
+footer {
+  font-family: "Source Sans Pro";
+  font-size: 0.9em;
+}
+
+/* line 39, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_05-initialize.scss */
+footer .hover-tile-outer {
+  background-image: url("/asset/img/extras/jahskee.jpg");
+  margin: 0 auto;
+  width: 90px;
+  height: 140px;
+  border: 5px solid white;
+  -webkit-box-shadow: 9px 6px 44px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 6px 44px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 6px 44px -4px rgba(0, 0, 0, 0.75);
+}
+
+/* line 1, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_06-header.scss */
+header {
+  color: #dfdfdf;
+  padding: 0px;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  height: 40px;
+  background: #4b4c5c;
+  -webkit-box-shadow: 9px 6px 44px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 6px 44px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 6px 44px -4px rgba(0, 0, 0, 0.75);
+}
+
+/* line 15, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_06-header.scss */
+header .logo-img, header .logo-title {
+  display: inline-block;
+  padding-left: 5px;
+  height: 32px;
+}
+
+/* line 21, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_06-header.scss */
+header .logo-title {
+  font-family: "Kaushan Script", cursive;
+  text-shadow: 4px 4px 4px #050505;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  position: relative;
+  top: -5px;
+  left: -30px;
+  -ms-transform: rotate(-5deg);
+  /* IE 9 */
+  -moz-transform: rotate(-5deg);
+  /* Firefox */
+  -webkit-transform: rotate(-5deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(-5deg);
+  /* Opera */
+}
+
+/* line 36, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_06-header.scss */
+header .header-top {
+  height: 40px;
+}
+
+/* line 1, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.hover-tile-outer {
+  background: url("/asset/img/extras/jahskee.jpg");
+  background-color: beige;
+  background-position: top;
+  background-size: cover;
+  border: 1px solid #626378;
+  cursor: pointer;
+  height: 10em;
+  margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 1, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+  .hover-tile-outer {
+    width: 40%;
+  }
+}
+
+/* line 22, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.hover-tile-outer .hover-tile-container {
+  height: 10em;
+  overflow: hidden;
+}
+
+/* line 27, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.hover-tile-outer .hover-tile-container:hover > .hover-tile {
+  transform: translate(0, -100%);
+}
+
+/* line 31, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.hover-tile-outer .hover-tile {
+  background: inherit;
+  color: whitesmoke;
+  height: inherit;
+  overflow: hidden;
+  padding: 1.5em;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 40, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.hover-tile-outer .hover-tile-hidden {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* line 43, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.hover-tile-outer .hover-tile-hidden p {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5em;
+}
+
+/* line 48, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.hover-tile-outer .hover-tile-hidden h4 {
+  margin: 0 0 0.5em 0;
+}
+
+/* line 54, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.footer {
+  background: #40526b;
+  padding: 3em 1.618em;
+  width: 100%;
+}
+
+/* line 68, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.footer .footer-logo {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+/* line 72, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.footer .footer-logo img {
+  height: 3em;
+}
+
+/* line 77, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.footer .footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+/* line 84, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.footer ul {
+  flex-basis: 13em;
+  flex-shrink: 0;
+  margin-bottom: 3em;
+  padding: 0;
+}
+
+/* line 91, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.footer li {
+  line-height: 1.5em;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 97, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.footer li a {
+  color: rgba(245, 245, 245, 0.4);
+  text-decoration: none;
+}
+
+/* line 101, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.footer li a:focus, .footer li a:hover {
+  color: whitesmoke;
+}
+
+/* line 107, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.footer li h3 {
+  color: whitesmoke;
+  font-size: 1em;
+  margin-bottom: 0.4em;
+}
+
+/* line 113, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.footer hr {
+  border: 1px solid rgba(245, 245, 245, 0.1);
+  margin: 0 auto 1.5em;
+  width: 12em;
+}
+
+/* line 119, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_07-bourbon-refills.scss */
+.footer p {
+  color: rgba(245, 245, 245, 0.4);
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin: auto;
+  max-width: 35em;
+  text-align: center;
+}
+
+/* line 1, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_08-searchbox-desktop.scss */
+.searchbox-desktop {
+  display: block;
+  float: right;
+  position: relative;
+  top: -33px;
+  left: 0px;
+  margin-right: 20px;
+}
+
+/* line 9, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_08-searchbox-desktop.scss */
+.searchbox-desktop input[type='text'] {
+  width: 8em;
+  height: 20px;
+  position: relative;
+  top: 2px;
+}
+
+/* line 16, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_08-searchbox-desktop.scss */
+.searchbox-desktop .search-btn {
+  font-size: 0.6em;
+  position: relative;
+  left: -1px;
+  top: 1px;
+  height: 20px;
+  border: 0;
+  background: #56586a;
+  color: whitesmoke;
+}
+
+/* line 27, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_08-searchbox-desktop.scss */
+.searchbox-desktop .search-btn:hover {
+  background-color: lightblue;
+}
+
+/* line 31, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_08-searchbox-desktop.scss */
+.searchbox-desktop input {
+  /*border-radius: 10px;*/
+  font-size: .8em;
+  height: 1.1em;
+}
+
+/* line 12, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_10-grid-neat.scss */
+.wrapper {
+  position: relative;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  font-size: 0.8em;
+  z-index: 5;
+  background: whitesmoke;
+  border-bottom: 0;
+}
+
+/* line 20, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/libsass/neat/mixins/_clearfix.scss */
+.wrapper::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* line 24, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_10-grid-neat.scss */
+.inner-border {
+  display: block;
+  float: left;
+  position: relative;
+  border: 10px solid #f9f9fa;
+  width: 100%;
+}
+
+/* line 32, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_10-grid-neat.scss */
+.row {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 100%;
+  margin: 0;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+/* line 89, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/libsass/neat/grid/_span-columns.scss */
+.row:last-child {
+  margin-right: 0;
+}
+
+/* line 20, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/libsass/neat/mixins/_clearfix.scss */
+.row::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* line 40, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_10-grid-neat.scss */
+.row:last-child {
+  margin-bottom: 0;
+}
+
+/* line 44, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_10-grid-neat.scss */
+.row [class^="col-"], .row [class*=" col-"] {
+  color: #0d0d0d;
+  margin-top: 10px;
+  margin-right: 1%;
+  background: white;
+  border: 1px solid #dddde3;
+}
+
+/* line 52, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_10-grid-neat.scss */
+.row .col-8 {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 100%;
+}
+
+/* line 89, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/libsass/neat/grid/_span-columns.scss */
+.row .col-8:last-child {
+  margin-right: 0;
+}
+
+/* line 54, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_10-grid-neat.scss */
+.row .col-8:first-child {
+  margin-top: 0;
+}
+
+/* line 59, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_10-grid-neat.scss */
+.row .col-4 {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%;
+  width: 49.5%;
+  margin-right: 1%;
+}
+
+/* line 89, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/libsass/neat/grid/_span-columns.scss */
+.row .col-4:last-child {
+  margin-right: 0;
+}
+
+/* line 68, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_10-grid-neat.scss */
+.row .col-2 {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 22.316%;
+  width: 24.25%;
+  margin-right: 1%;
+}
+
+/* line 89, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/libsass/neat/grid/_span-columns.scss */
+.row .col-2:last-child {
+  margin-right: 0;
+}
+
+/* line 73, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_10-grid-neat.scss */
+.row .col-2 article img {
+  float: left;
+  width: 100%;
+  padding-right: 0;
+  padding-bottom: 10px;
+}
+
+/* line 1, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_11-article.scss */
+article {
+  background: whitesmoke;
+  background: white;
+}
+
+/* line 4, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_11-article.scss */
+article h3 {
+  background: #cecaa5;
+  padding-left: 10px;
+  font-size: 1.3em;
+  font-family: 'Rancho';
+  border-bottom: 1px solid #c0c1cc;
+}
+
+/* line 12, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_11-article.scss */
+article p {
+  padding: 0 10px;
+}
+
+/* line 18, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_11-article.scss */
+article p img {
+  float: left;
+  width: 66%;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 1, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_12-hero-title.scss */
+.hero-title {
+  position: absolute;
+  top: 300px;
+  font-family: "Great Vibes";
+  font-size: 3em;
+  z-index: 20;
+  width: 100%;
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: #030303 3px 3px 7px;
+  pointer-events: none;
+}
+
+/* line 16, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_12-hero-title.scss */
+.hero-title h3 {
+  position: relative;
+  left: -100px;
+  z-index: 20;
+}
+
+/* line 22, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_12-hero-title.scss */
+.hero-title h1 {
+  position: relative;
+  left: 100px;
+  z-index: 20;
+}
+
+/* line 1, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_13-hero-image.scss */
+.hero-image {
+  border: 10px solid whitesmoke;
+  background: #6d6f86;
+}
+
+/* Base Styles */
+/* line 5, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.80rem;
+  position: relative;
+}
+
+/* line 20, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu a {
+  line-height: 1.5;
+}
+
+/* line 23, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu {
+  width: auto;
+  background: #626378;
+}
+
+/* line 27, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu > ul {
+  border: 1px solid #000;
+  -moz-box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.2);
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.2);
+  background: #626378;
+}
+
+/* line 41, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu > ul:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+@media all and (max-width: 480px) {
+  /* line 47, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+  #cssmenu > ul {
+    max-height: 32px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.5s;
+    transition: max-height 0.5s;
+  }
+  /* line 53, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+  #cssmenu.expand ul {
+    max-height: 900px;
+  }
+}
+
+/* line 57, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu > ul > li {
+  float: left;
+}
+
+/* line 65, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu > ul > li.mobile {
+  display: none;
+}
+
+/* line 68, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu > ul > li.active {
+  background: #626378;
+  /*
+    background: -moz-linear-gradient(#224a6e 0%, #193752 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #224a6e), color-stop(100%, #193752));
+    background: -webkit-linear-gradient(#224a6e 0%, #193752 100%);
+    background: linear-gradient(#224a6e 0%, #193752 100%);*/
+}
+
+@media all and (max-width: 480px) {
+  /* line 77, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+  #cssmenu > ul > li {
+    border-right: 0 none;
+    -moz-box-shadow: 0 0 0 transparent;
+    -webkit-box-shadow: 0 0 0 transparent;
+    box-shadow: 0 0 0 transparent;
+    display: block;
+    float: none;
+  }
+  /* line 85, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+  #cssmenu > ul > li.mobile {
+    display: block;
+  }
+  /* line 88, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+  #cssmenu > ul > li.mobile i {
+    float: right;
+    font-style: normal;
+  }
+}
+
+/* line 93, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu > ul > li:last-child {
+  border-right: 0 none;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/* line 102, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu > ul > li:last-child ul {
+  left: auto;
+  right: 0;
+}
+
+/* line 106, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu > ul > li.mobile {
+  border-right: 0 none;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+}
+
+/* line 112, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu > ul > li > a {
+  margin: 0 0 2px 0;
+  font-size: 0.85em;
+  display: block;
+  color: #fff;
+  text-shadow: 0 1px 1px #000;
+}
+
+/* line 119, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu > ul > li > a > span {
+  display: block;
+  padding: 6px 10px;
+  font-weight: bold;
+}
+
+/* line 124, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu > ul > li > a:hover {
+  text-decoration: none;
+}
+
+/* line 127, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu > ul > li.active {
+  border-bottom: none;
+}
+
+/* line 130, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu > ul > li.active > a {
+  color: #fff;
+  text-shadow: 0 1px 1px #000;
+}
+
+/* Sub menu */
+/* line 135, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu ul ul {
+  background: #F9F9F9;
+  border: 1px solid #CCC;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  padding: 5px 12px;
+  display: none;
+  position: absolute;
+  top: 33px;
+  left: 0;
+  width: 200px;
+  z-index: 1;
+}
+
+@media all and (max-width: 480px) {
+  /* line 153, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+  #cssmenu ul ul {
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+}
+
+/* line 159, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu ul ul li {
+  padding: 3px 0;
+}
+
+/* line 162, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu ul ul a {
+  color: #999;
+  display: block;
+  font-size: 0.90em;
+  font-weight: bold;
+}
+
+/* line 168, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_14-css-menu.scss */
+#cssmenu ul ul a:hover {
+  color: #444;
+}
+
+/* line 1, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_15-read-more.scss */
+.see-more {
+  display: inline-block;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 0.8em;
+  background: #fbfbf8;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 10, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_15-read-more.scss */
+.see-more .text {
+  position: relative;
+  top: 7px;
+  left: -8px;
+  font-style: italic;
+  color: black;
+}
+
+/* line 18, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_15-read-more.scss */
+.see-more:link, .see-more:active, .see-more:visited, .see-morehover {
+  color: #4b4c5c;
+}
+
+/* line 26, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_15-read-more.scss */
+.see-more:hover {
+  text-decoration: underline;
+}
+
+/* line 30, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_15-read-more.scss */
+.see-more img {
+  width: 30px;
+}
+
+/* line 2, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_16-footer.scss */
+.footer {
+  position: relative;
+  background: #4b4c5c;
+  width: 100%;
+  padding-top: 40px;
+  color: #0d0d0d;
+  font-size: 0.8em;
+  border-top: 10px solid #dddde3;
+  margin-top: 20px;
+}
+
+/* line 12, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_16-footer.scss */
+.footer ul {
+  margin-bottom: 5px;
+}
+
+/* line 17, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_16-footer.scss */
+.footer-links {
+  background: #4b4c5c;
+}
+
+/* line 1, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_17-searchbox-mobile.scss */
+.searchbox-mobile {
+  display: block;
+  width: 100%;
+  margin: 5px auto;
+}
+
+/* line 6, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_17-searchbox-mobile.scss */
+.searchbox-mobile input[type='text'] {
+  height: 35px;
+  width: 100%;
+}
+
+/* line 11, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_17-searchbox-mobile.scss */
+.searchbox-mobile .search-btn {
+  font-size: .8em;
+  position: relative;
+  height: 35px;
+  font-weight: bold;
+  background: rgba(25, 36, 58, 0.8);
+  color: white;
+  width: 100%;
+}
+
+/* line 19, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_17-searchbox-mobile.scss */
+.searchbox-mobile .search-btn:hover {
+  background-color: rgba(71, 111, 173, 0.89);
+}
+
+/* line 24, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_17-searchbox-mobile.scss */
+.searchbox-mobile input {
+  /*border-radius: 10px;*/
+  font-size: .8em;
+  height: 20px;
+}
+
+/* line 1, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+.box-container {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* line 6, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+.box {
+  display: inline-block;
+  width: 10%;
+  height: 20px;
+  margin: 0 auto;
+}
+
+/* line 18, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+#box-0 {
+  background: #5b5c70;
+}
+
+/* line 18, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+#box-1 {
+  background: #545567;
+}
+
+/* line 18, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+#box-2 {
+  background: #4d4e5f;
+}
+
+/* line 18, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+#box-3 {
+  background: #464756;
+}
+
+/* line 18, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+#box-4 {
+  background: #40404e;
+}
+
+/* line 18, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+#box-5 {
+  background: #393946;
+}
+
+/* line 28, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+#box-5 {
+  background: #40404e;
+}
+
+/* line 28, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+#box-6 {
+  background: #464756;
+}
+
+/* line 28, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+#box-7 {
+  background: #4d4e5f;
+}
+
+/* line 28, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+#box-8 {
+  background: #545567;
+}
+
+/* line 28, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+#box-9 {
+  background: #5b5c70;
+}
+
+/* line 28, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_18-looping-box.scss */
+#box-10 {
+  background: #626378;
+}
+
+/* line 2, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_19-custom.scss */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 9, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_19-custom.scss */
+.img-full-width,
+.img-half-width {
+  padding-right: 7px;
+  padding-bottom: 4px;
+}
+
+/* line 15, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_19-custom.scss */
+.header #cssmenu ul,
+.header #cssmenu ul li,
+.header #cssmenu ul li a {
+  z-index: 1011;
+}
+
+/* line 21, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_19-custom.scss */
+.header {
+  /* background: #233352;*/
+  z-index: 100;
+}
+
+/* line 26, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_19-custom.scss */
+.searchbox-mobile {
+  display: none;
+}
+
+/* line 29, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_19-custom.scss */
+.social-media-mobile {
+  display: none;
+}
+
+/* line 33, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_19-custom.scss */
+.plane {
+  width: 100%;
+}
+
+/* line 37, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_19-custom.scss */
+#cssmenu {
+  border-bottom: 10px solid #dddde3;
+}
+
+/* line 41, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_19-custom.scss */
+.hover-tile-outer {
+  background-image: url("/asset/img/extras/jahskee.jpg");
+  margin: 0 auto;
+  width: 90px;
+  height: 140px;
+  border: 5px solid whitesmoke;
+  -webkit-box-shadow: 9px 6px 44px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 6px 44px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 6px 44px -4px rgba(0, 0, 0, 0.75);
+}
+
+/* query for tablet devices */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 6, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  html {
+    font-size: 115%;
+  }
+  /* line 9, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  body {
+    font-size: 115%;
+  }
+  /* line 13, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  .hero-title {
+    font-size: 1.5em;
+    top: 180px;
+    z-index: 100;
+  }
+  /* line 18, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  .hero-title h3 {
+    left: -40px;
+  }
+  /* line 21, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  .hero-title h1 {
+    left: 30px;
+  }
+  /* line 25, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  .row {
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+  /* line 29, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  .row .col-2:nth-child(even) {
+    margin-right: 0;
+  }
+  /* line 33, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  .row .col-2, .row .col-4 {
+    margin-right: 1%;
+    width: 49.5%;
+  }
+  /* line 39, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  .row [class^="col-"], .row [class*=" col-"] {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  /* line 44, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  .row [class^="col-"] article p > img, .row [class*=" col-"] article p > img {
+    padding-right: 0;
+    width: 100%;
+  }
+  /* line 49, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  .row [class^="col-"] article picture img, .row [class*=" col-"] article picture img {
+    width: 100%;
+  }
+  /* line 57, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  header {
+    z-index: 125;
+  }
+  /* line 61, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  .hero-title {
+    z-index: 124;
+  }
+  /* line 65, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_20-screen-tablet.scss */
+  .searchbox-desktop {
+    left: -20px;
+  }
+}
+
+/* query for mobile phone devices */
+@media only screen and (max-width: 479px) {
+  /* line 4, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  html {
+    font-size: 120%;
+  }
+  /* line 7, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  body {
+    font-size: 120%;
+  }
+  /* line 11, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  .hero-title {
+    font-size: 1.2em;
+    top: 120px;
+    z-index: 100;
+  }
+  /* line 16, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  .hero-title h3 {
+    left: -40px;
+  }
+  /* line 19, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  .hero-title h1 {
+    left: 30px;
+  }
+  /* line 24, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  .searchbox-desktop {
+    display: none;
+  }
+  /* line 27, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  .searchbox-mobile {
+    display: inline-block;
+  }
+  /* line 32, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  .row {
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+  /* line 35, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  .row .col-2, .row .col-4 {
+    margin-right: 0;
+    width: 100%;
+  }
+  /* line 40, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  .row [class^="col-"], .row [class*=" col-"] {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  /* line 45, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  .row [class^="col-"] article p img, .row [class*=" col-"] article p img {
+    padding-right: 0;
+    width: 100%;
+  }
+  /* line 52, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  .row:first-child {
+    margin-top: 10px;
+  }
+  /* line 57, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  picture img {
+    width: 100%;
+  }
+  /* line 61, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  header {
+    z-index: 105;
+  }
+  /* line 64, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  header .logo-title {
+    font-size: 1em;
+  }
+  /* line 69, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  .wrapper {
+    margin-top: 65px;
+  }
+  /* line 75, /home/releasemgr/Desktop/harvardproj/dgmd27-project01/asset/scss/partials/_21-screen-mobile.scss */
+  .footer {
+    padding-top: 0;
+  }
+}
+
+/*# sourceMappingURL=../css/styles.map */

@@ -1,0 +1,19 @@
+
+.footer {
+    position: relative;
+ //   top: $wrapper-move-up;
+    background: $theme-color1;
+    width: 100%;
+    padding-top: 40px;
+    color: $black;
+    font-size: 0.8em;
+    border-top: 10px solid $theme-color12;
+    margin-top: 20px;
+    ul {
+        margin-bottom: 5px;
+    }
+}
+
+.footer-links {
+    background: $theme-color1;
+}

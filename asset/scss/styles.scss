@@ -1,0 +1,26 @@
+@import "normalize";
+@import "bourbon";
+@import "libsass/neat/neat";  // Neat 1.8 downloaded
+@import "../lib/ism/css/my-slider";
+@import "partials/00-variables";
+@import "partials/01-functions";
+@import "partials/02-mixins";
+@import "partials/03-google-fonts";
+@import "partials/04-color-generation";
+@import "partials/05-initialize";
+@import "partials/06-header";
+@import "partials/07-bourbon-refills";
+@import "partials/08-searchbox-desktop";
+@import "partials/10-grid-neat";
+@import "partials/11-article";
+@import "partials/12-hero-title";
+@import "partials/13-hero-image";
+@import "partials/14-css-menu";
+@import "partials/15-read-more";
+@import "partials/16-footer";
+@import "partials/17-searchbox-mobile";
+@import "partials/18-looping-box";
+@import "partials/19-custom";
+@import "partials/20-screen-tablet";
+@import "partials/21-screen-mobile";
+
